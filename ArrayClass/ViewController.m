@@ -16,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    Array  *array = [[Array alloc]init];
+    [array add:10];
+    [array add:20];
+    [array add:30];
+    [array add:40];
+    [array add:50];
+    [array add:60];
+    NSLog(@"Object At Index 0 is %d",[array objectAtIndex:0]);
+     NSLog(@"Object At Index 1 is %d",[array objectAtIndex:1]);
+     NSLog(@"Object At Index 2 is %d",[array objectAtIndex:2]);
 }
 
 

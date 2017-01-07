@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Array.h"
 @interface ViewController : UIViewController
 
 
