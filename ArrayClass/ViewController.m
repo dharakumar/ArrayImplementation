@@ -22,11 +22,11 @@
     [array add:20];
     [array add:30];
     [array add:40];
-    [array add:50];
-   
+    [array add:80];
+    [array add:90];
     NSLog(@"Object At Index 0 is %d",[array objectAtIndex:0]);
      NSLog(@"Object At Index 1 is %d",[array objectAtIndex:1]);
-     NSLog(@"Object At Index 2 is %d",[array objectAtIndex:2]);
+     NSLog(@"Object At Index 2 is %d",[array objectAtIndex:0]);
 }
 
 
